@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="initClock()">
+<!------ Date ------>
+	<div class="datetime">
+		<div class="date">
+			<span id="dayname">Day</span>,
+			<span id="month">month</span>
+			<span id="daynum">00</span>,
+			<span id="year">year</span>
+		</div>
+		<div class="time">
+			<span id="hour">00</span>:
+			<span id="minutes">00</span>:
+			<span id="seconds">00</span>
+			<span id="period">AM</span>
+		</div>
+	</div>
+
+
+
+
+<!------ List ------->
+    <div class="container">
+		<div class="addTask">
+			<input type="text" placeholder="Add a Task">
+			<button>Add</button>
+		</div>
+
+		<ol class="notCompleted">
+			<h3>Not Completed</h3>
+		</ol>
+
+		<ol class="Completed">
+			<h3>Completed</h3>
+		</ol>
+	</div>
+    <script src="js/main.js"></script>
+        
+</body>
+</html>
